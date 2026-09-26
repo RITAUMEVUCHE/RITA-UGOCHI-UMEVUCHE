@@ -1,0 +1,1256 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>RITA UGOCHI UMEVUCHE | WordPress / Frontend Web Developer / AI Automation Specialist / AI Creative</title>
+  <meta name="description"
+    content="RITA UGOCHI UMEVUCHE - WordPress & Frontend Web Developer specializing in modern websites, AI automation, and creative digital solutions.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Poppins:wght@300;400;500;600;700;800;900&family=Fira+Code:wght@400;500&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+
+  <div id="cursor"></div>
+  <div id="cursor-blur"></div>
+
+  <canvas id="particles-canvas"></canvas>
+
+  <div class="floating-blob blob-1"></div>
+  <div class="floating-blob blob-2"></div>
+  <div class="floating-blob blob-3"></div>
+
+  <nav id="navbar">
+    <div class="nav-container">
+      <a href="#home" class="nav-logo">&lt;RU/&gt;</a>
+      <ul class="nav-links" id="nav-links">
+        <li><a href="#home" class="nav-link active">Home</a></li>
+        <li><a href="#about" class="nav-link">About</a></li>
+       <li><a href="#skills" class="nav-link">Skills</a></li>
+        <li><a href="#projects" class="nav-link">Projects</a></li>
+        <li><a href="#services" class="nav-link">Services</a></li>
+        <li><a href="#contact" class="nav-link">Get In Touch</a></li>
+      </ul>
+      <div class="nav-actions">
+        <button id="theme-toggle" class="theme-btn" aria-label="Toggle theme">
+          <i class="fas fa-moon"></i>
+        </button>
+        <a href="assets/CV.pdf" class="cv-btn" download><i class="fas fa-download"></i> CV</a>
+        <button class="hamburger" id="hamburger" aria-label="Menu">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+  </nav>
+
+  <section id="home">
+    <div class="home-container">
+      <div class="home-content">
+        <div class="home-text">
+          <p class="greeting">Hello, I'm</p>
+          <h1 class="name">RITA UGOCHI <span class="gradient-text">UMEVUCHE</span></h1>
+          <div class="typing-wrapper">
+            <span class="typing-text"></span>
+            <span class="typing-cursor">|</span>
+          </div>
+          <p class="bio">WordPress & Frontend Web Developer creating modern, responsive websites, smart AI automations, and creative digital solutions that help businesses grow..</p>
+          <div class="home-buttons">
+            <a href="#contact" class="btn primary-btn magnetic-btn">Hire Me <i class="fas fa-rocket"></i></a>
+            <a href="#projects" class="btn secondary-btn magnetic-btn">View Projects <i
+                class="fas fa-arrow-right"></i></a>
+          </div>
+          <div class="social-icons">
+            <a href="https://web.facebook.com/ugoritaumevuche" target="_blank" rel="noopener"
+              class="social-link" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+            <a href="https://www.linkedin.com/in/ritaumevuche/" target="_blank" rel="noopener" class="social-link"
+              aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+            <a href="https://github.com/RITAUMEVUCHE" target="_blank" rel="noopener" class="social-link"
+              aria-label="GitHub"><i class="fab fa-github"></i></a>
+          </div>
+        </div>
+        <div class="home-visual">
+          <div class="profile-wrapper">
+            <div class="profile-glow"></div>
+
+            <div class="profile-placeholder">
+
+              <img src="assets/pro.png" alt="">
+
+              <div class="float-shape shape-1"><i class="fas fa-code"></i></div>
+              <div class="float-shape shape-2"><i class="fab fa-flutter"></i></div>
+              <div class="float-shape shape-3"><i class="fas fa-mobile-alt"></i></div>
+              <div class="float-shape shape-4"><i class="fas fa-database"></i></div>
+            </div>
+          </div>
+        </div>
+      </div>
+  </section>
+  <!-- About Section -->
+
+  <section id="about" class="section">
+    <div class="container">
+      <div class="section-header reveal">
+        <h2 class="section-title">About <span class="gradient-text">Me</span></h2>
+        <div class="section-line"></div>
+      </div>
+      <div class="about-content">
+        <div class="about-image reveal">
+          <div class="about-img-wrapper">
+            <div class="about-img-glow"></div>
+            <div class="about-img-placeholder">
+
+              <img src="assets/pro.png" alt="">
+            </div>
+          </div>
+        </div>
+		
+	
+		
+        <div class="about-text reveal">
+          <p class="about-description">
+            I'm <strong>RITA UGOCHI UMEVUCHE</strong>, a WordPress & Frontend Web Developer and AI Automation Specialist with  <strong>3 years of experience</strong>
+            focused on creating modern, responsive, and engaging digital experiences..
+          </p>
+
+          <p class="about-description">
+           I build professional websites with <strong>Html, CSS, JavaScript, WordPress and Elementor,</strong> develop <strong>AI-powered automations and workflows,</strong>
+		   and create engaging digital content using modern AI tools..
+          </p>
+
+          <p class="about-description">
+            My work combines <strong>frontend development, web design, AI, and automation </strong> to help businesses establish a strong online presence,
+			streamline repetitive tasks, and turn ideas into practical <strong>digital solutions.</strong>
+          </p>
+          <div class="stats-grid">
+	<div class="stat-card glass" data-count="5">
+    <i class="fas fa-laptop-code stat-icon"></i>
+    <h3 class="stat-number"><span class="count-num">0</span>+</h3>
+    <p>Years in Digital Work</p>
+  </div>
+
+  <div class="stat-card glass" data-count="10">
+    <i class="fas fa-layer-group stat-icon"></i>
+    <h3 class="stat-number"><span class="count-num">0</span>+</h3>
+    <p>Projects & Concepts</p>
+  </div>
+
+  <div class="stat-card glass" data-count="4">
+    <i class="fas fa-cubes stat-icon"></i>
+    <h3 class="stat-number"><span class="count-num">0</span></h3>
+    <p>Digital Services</p>
+  </div>
+
+  <div class="stat-card glass">
+    <i class="fas fa-robot stat-icon"></i>
+    <h3 class="stat-number">AI</h3>
+    <p>Powered Solutions</p>
+  </div>
+</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+ 
+
+  
+        <!-- Skills Section -->
+        
+
+
+           <section id="skills" class="section">
+  <div class="container">
+
+    <div class="section-header reveal">
+      <h2 class="section-title">My <span class="gradient-text">Skills</span></h2>
+      <div class="section-line"></div>
+    </div>
+
+    <div class="skills-content">
+
+      <!-- Web Development -->
+      <div class="skill-category reveal">
+        <h3 class="skill-cat-title">
+          <i class="fas fa-code"></i> Web Development
+        </h3>
+
+        <div class="skills-grid">
+
+          <div class="skill-item" data-progress="90">
+            <span>WordPress</span>
+            <div class="skill-bar">
+              <div class="skill-progress"><span>90%</span></div>
+            </div>
+          </div>
+
+          <div class="skill-item" data-progress="90">
+            <span>Elementor</span>
+            <div class="skill-bar">
+              <div class="skill-progress"><span>90%</span></div>
+            </div>
+          </div>
+
+          <div class="skill-item" data-progress="85">
+            <span>HTML</span>
+            <div class="skill-bar">
+              <div class="skill-progress"><span>85%</span></div>
+            </div>
+          </div>
+
+          <div class="skill-item" data-progress="80">
+            <span>CSS</span>
+            <div class="skill-bar">
+              <div class="skill-progress"><span>80%</span></div>
+            </div>
+          </div>
+
+          <div class="skill-item" data-progress="70">
+            <span>JavaScript</span>
+            <div class="skill-bar">
+              <div class="skill-progress"><span>70%</span></div>
+            </div>
+          </div>
+
+          <div class="skill-item" data-progress="85">
+            <span>Responsive Web Design</span>
+            <div class="skill-bar">
+              <div class="skill-progress"><span>85%</span></div>
+            </div>
+          </div>
+
+          
+
+          <div class="skill-item" data-progress="75">
+            <span>Website Optimization</span>
+            <div class="skill-bar">
+              <div class="skill-progress"><span>75%</span></div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+
+      <!-- AI & Automation -->
+      <div class="skill-category reveal">
+        <h3 class="skill-cat-title">
+          <i class="fas fa-robot"></i> AI & Automation
+        </h3>
+
+        <div class="skills-grid">
+
+          <div class="skill-item" data-progress="90">
+            <span>AI Workflow Automation</span>
+            <div class="skill-bar">
+              <div class="skill-progress"><span>90%</span></div>
+            </div>
+          </div>
+
+          <div class="skill-item" data-progress="85">
+            <span>n8n</span>
+            <div class="skill-bar">
+              <div class="skill-progress"><span>85%</span></div>
+            </div>
+          </div>
+
+          <div class="skill-item" data-progress="90">
+            <span>ChatGPT</span>
+            <div class="skill-bar">
+              <div class="skill-progress"><span>90%</span></div>
+            </div>
+          </div>
+
+          <div class="skill-item" data-progress="85">
+            <span>Claude</span>
+            <div class="skill-bar">
+              <div class="skill-progress"><span>85%</span></div>
+            </div>
+          </div>
+
+          <div class="skill-item" data-progress="85">
+            <span>Google Gemini</span>
+            <div class="skill-bar">
+              <div class="skill-progress"><span>85%</span></div>
+            </div>
+          </div>
+
+          <div class="skill-item" data-progress="80">
+            <span>AI Chatbots</span>
+            <div class="skill-bar">
+              <div class="skill-progress"><span>80%</span></div>
+            </div>
+          </div>
+
+          <div class="skill-item" data-progress="80">
+            <span>AI Content Automation</span>
+            <div class="skill-bar">
+              <div class="skill-progress"><span>80%</span></div>
+            </div>
+          </div>
+
+          <div class="skill-item" data-progress="75">
+            <span>API & Workflow Integration</span>
+            <div class="skill-bar">
+              <div class="skill-progress"><span>75%</span></div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+
+      <!-- AI Creative -->
+      <div class="skill-category reveal">
+        <h3 class="skill-cat-title">
+          <i class="fas fa-wand-magic-sparkles"></i> AI Creative
+        </h3>
+
+        <div class="skills-grid">
+
+          <div class="skill-item" data-progress="85">
+            <span>AI Video Creation</span>
+            <div class="skill-bar">
+              <div class="skill-progress"><span>85%</span></div>
+            </div>
+          </div>
+
+          <div class="skill-item" data-progress="85">
+            <span>AI Image Generation</span>
+            <div class="skill-bar">
+              <div class="skill-progress"><span>85%</span></div>
+            </div>
+          </div>
+
+          <div class="skill-item" data-progress="85">
+            <span>AI Flyers & Graphics</span>
+            <div class="skill-bar">
+              <div class="skill-progress"><span>85%</span></div>
+            </div>
+          </div>
+
+          <div class="skill-item" data-progress="85">
+            <span>Canva</span>
+            <div class="skill-bar">
+              <div class="skill-progress"><span>85%</span></div>
+            </div>
+          </div>
+
+          <div class="skill-item" data-progress="85">
+            <span>CapCut</span>
+            <div class="skill-bar">
+              <div class="skill-progress"><span>85%</span></div>
+            </div>
+          </div>
+
+          <div class="skill-item" data-progress="80">
+            <span>ElevenLabs</span>
+            <div class="skill-bar">
+              <div class="skill-progress"><span>80%</span></div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+
+      <!-- Professional & Digital Skills -->
+      <div class="skill-category reveal">
+        <h3 class="skill-cat-title">
+          <i class="fas fa-briefcase"></i> Professional Skills
+        </h3>
+
+        <div class="skills-grid">
+
+          <div class="skill-item" data-progress="90">
+            <span>Virtual Assistance</span>
+            <div class="skill-bar">
+              <div class="skill-progress"><span>90%</span></div>
+            </div>
+          </div>
+
+          <div class="skill-item" data-progress="90">
+            <span>Customer Support</span>
+            <div class="skill-bar">
+              <div class="skill-progress"><span>90%</span></div>
+            </div>
+          </div>
+
+          <div class="skill-item" data-progress="90">
+            <span>Data Entry</span>
+            <div class="skill-bar">
+              <div class="skill-progress"><span>90%</span></div>
+            </div>
+          </div>
+
+          <div class="skill-item" data-progress="85">
+            <span>Google Workspace</span>
+            <div class="skill-bar">
+              <div class="skill-progress"><span>85%</span></div>
+            </div>
+          </div>
+
+          <div class="skill-item" data-progress="85">
+            <span>Microsoft Office</span>
+            <div class="skill-bar">
+              <div class="skill-progress"><span>85%</span></div>
+            </div>
+          </div>
+
+          <div class="skill-item" data-progress="85">
+            <span>Content Management</span>
+            <div class="skill-bar">
+              <div class="skill-progress"><span>85%</span></div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+  
+         
+       <!-- =========================================
+     PROJECTS / PORTFOLIO SECTION
+     ========================================= -->
+<section id="projects" class="section">
+
+  <div class="container">
+
+    <!-- Section Header -->
+    <div class="section-header reveal">
+      <h2 class="section-title">
+        Featured <span class="gradient-text">Projects</span>
+      </h2>
+
+      <div class="section-line"></div>
+    </div>
+
+
+    <!-- =========================================
+         PORTFOLIO FILTER TABS
+         ========================================= -->
+    <div class="portfolio-tabs reveal">
+
+      <!-- All Projects -->
+      <button class="portfolio-tab active" data-filter="all">
+        All
+      </button>
+
+      <!-- Website Projects -->
+      <button class="portfolio-tab" data-filter="websites">
+        Websites
+      </button>
+
+      <!-- AI Automation Projects -->
+      <button class="portfolio-tab" data-filter="automation">
+        AI Automation
+      </button>
+
+      <!-- AI Video Projects -->
+      <button class="portfolio-tab" data-filter="videos">
+        AI Videos
+      </button>
+
+      <!-- AI Flyer / Image Projects -->
+      <button class="portfolio-tab" data-filter="flyers">
+        AI Flyers & Images
+      </button>
+
+    </div>
+
+
+    <!-- =========================================
+         PROJECTS GRID
+         ========================================= -->
+    <div class="projects-grid">
+
+
+      <!-- =====================================
+           WEBSITE PROJECT
+           ===================================== -->
+      <div class="project-card glass reveal tilt-card"
+           data-category="websites">
+
+        <!-- Project Image -->
+        <div class="project-img">
+
+          <div class="project-img-placeholder">
+
+            <img
+              src="assets/project/website-1.png"
+              alt="Modern business website design">
+
+          </div>
+
+        </div>
+
+
+        <!-- Project Information -->
+        <div class="project-info">
+
+          <span class="project-category">
+            Website Design
+          </span>
+
+          <h3>Business Website Redesign</h3>
+
+          <p>
+            A modern, responsive business website concept designed
+            with WordPress and Elementor to improve presentation,
+            usability, and online presence.
+          </p>
+
+
+          <!-- Technologies / Tools -->
+          <div class="project-tags">
+
+            <span>WordPress</span>
+            <span>Elementor</span>
+            <span>Responsive Design</span>
+
+          </div>
+
+
+          <!-- Project Link -->
+          <a
+            href="#"
+            target="_blank"
+            rel="noopener"
+            class="project-link">
+
+            <i class="fas fa-arrow-up-right-from-square"></i>
+            View Project
+
+          </a>
+
+        </div>
+
+      </div>
+
+
+
+      <!-- =====================================
+           AI AUTOMATION PROJECT
+           ===================================== -->
+      <div class="project-card glass reveal tilt-card"
+           data-category="automation">
+
+        <!-- Project Image -->
+        <div class="project-img">
+
+          <div class="project-img-placeholder">
+
+            <img
+              src="assets/project/automation-1.png"
+              alt="AI workflow automation">
+
+          </div>
+
+        </div>
+
+
+        <!-- Project Information -->
+        <div class="project-info">
+
+          <span class="project-category">
+            AI Automation
+          </span>
+
+          <h3>AI Blog Automation Workflow</h3>
+
+          <p>
+            An end-to-end AI blog automation workflow that automatically researches topics,
+			writes SEO-friendly articles, creates featured images, publishes them to WordPress, 
+			and updates Google Sheets—all with minimal manual intervention.
+
+          </p>
+
+
+          <!-- Technologies / Tools -->
+          <div class="project-tags">
+
+            <span>n8n</span>
+            <span>WordPress</span>
+            <span>Google Sheets</span>
+			  <span>AI Automation</span>
+
+          </div>
+
+
+          <!-- Project Link -->
+          <a
+            href="#"
+            target="_blank"
+            rel="noopener"
+            class="project-link">
+
+            <i class="fas fa-arrow-up-right-from-square"></i>
+            View Project
+
+          </a>
+
+        </div>
+
+      </div>
+
+
+
+      <!-- =====================================
+           AI VIDEO PROJECT
+           ===================================== -->
+      <div class="project-card glass reveal tilt-card"
+           data-category="videos">
+
+        <!-- Project Image -->
+        <div class="project-img">
+
+          <div class="project-img-placeholder">
+
+            <img
+              src="assets/project/ai-video-1.png"
+              alt="AI video creation project">
+
+          </div>
+
+        </div>
+			<!-- Project Information -->
+        <div class="project-info">
+
+          <span class="project-category">
+            AI Video
+          </span>
+
+          <h3>AI Social Media Video</h3>
+
+          <p>
+            Created engaging short-form videos using AI-powered creative tools, combining AI-generated visuals, 
+			storytelling, voiceovers, editing, and motion to produce attention-grabbing content for social media platforms.
+
+          </p>
+
+
+          <!-- Technologies / Tools -->
+          <div class="project-tags">
+
+            <span>FLOW AI</span>
+            <span>ElevenLabs</span>
+            <span>CapCut</span>
+
+          </div>
+
+
+          <!-- Project Link -->
+          <a
+            href="https://www.youtube.com/@RitaCreationAI/shorts"
+            target="_blank"
+            rel="noopener"
+            class="project-link">
+
+            <i class="fas fa-play"></i>
+            View Video
+
+          </a>
+
+        </div>
+
+      </div>
+
+
+
+      <!-- =====================================
+           AI FLYER / IMAGE PROJECT
+           ===================================== -->
+      <div class="project-card glass reveal tilt-card"
+           data-category="flyers">
+
+        <!-- Project Image -->
+        <div class="project-img">
+
+          <div class="project-img-placeholder">
+
+            <img
+              src="assets/project/ai-flyer-1.jpeg"
+              alt="AI flyer and image design">
+
+          </div>
+
+        </div>
+
+
+        <!-- Project Information -->
+        <div class="project-info">
+
+          <span class="project-category">
+            AI Creative
+          </span>
+
+          <h3>AI Product Flyers & Promotional Designs</h3>
+
+          <p>
+           Created visually engaging product flyers and promotional graphics using AI-generated visuals combined with creative layouts,
+		   product presentation, typography, and branding elements designed for social media and digital marketing.
+
+          </p>
+
+
+          <!-- Technologies / Tools -->
+          <div class="project-tags">
+
+            <span>AI Images</span>
+            <span>ChatGPT</span>
+            <span>Gemini</span>
+			<span>AI flyer</span>
+
+          </div>
+
+
+          <!-- Project Link -->
+          <a
+            href="https://www.tiktok.com/@rita.creationai"
+            target="_blank"
+            rel="noopener"
+            class="project-link">
+
+            <i class="fas fa-image"></i>
+            View Design
+
+          </a>
+
+        </div>
+
+      </div>
+
+
+
+      <!-- =====================================
+           SECOND WEBSITE PROJECT
+           ===================================== -->
+      <div class="project-card glass reveal tilt-card"
+           data-category="websites">
+
+        <div class="project-img">
+
+          <div class="project-img-placeholder">
+
+            <img
+              src="assets/project/website-2.png"
+              alt="WordPress portfolio website">
+
+          </div>
+
+        </div>
+
+
+        <div class="project-info">
+
+          <span class="project-category">
+            Website Design
+          </span>
+
+          <h3>Professional Portfolio Website</h3>
+
+          <p>
+            A modern personal portfolio website designed to
+            showcase services, projects, skills, and professional
+            experience with an interactive user experience.
+          </p>
+
+
+          <div class="project-tags">
+
+            <span>WordPress</span>
+            <span>Elementor</span>
+            <span>UI Design</span>
+
+          </div>
+
+
+          <a
+            href="#"
+            target="_blank"
+            rel="noopener"
+            class="project-link">
+
+            <i class="fas fa-arrow-up-right-from-square"></i>
+            View Project
+
+          </a>
+
+        </div>
+
+      </div>
+	  
+	  
+	  <!-- =====================================
+          Second AI FLYER / IMAGE PROJECT
+           ===================================== -->
+      <div class="project-card glass reveal tilt-card"
+           data-category="flyers">
+
+        <!-- Project Image -->
+        <div class="project-img">
+
+          <div class="project-img-placeholder">
+
+            <img
+              src="assets/project/ai-photo-1.jpeg"
+              alt="AI flyer and image design">
+
+          </div>
+
+        </div>
+
+
+        <!-- Project Information -->
+        <div class="project-info">
+
+          <span class="project-category">
+            AI Creative
+          </span>
+
+          <h3>Realistic AI Portrait Creation</h3>
+
+          <p>
+            Created photorealistic AI portraits and creative compositions using AI image-generation tools, 
+			with detailed attention to facial features, lighting, skin texture, styling, wardrobe, composition, and professional studio aesthetics.
+
+          </p>
+
+
+          <!-- Technologies / Tools -->
+          <div class="project-tags">
+
+            <span>AI Images</span>
+            <span>ChatGPT</span>
+            <span>Gemini</span>
+
+          </div>
+
+
+          <!-- Project Link -->
+          <a
+            href="https://www.tiktok.com/@rita.creationai"
+            target="_blank"
+            rel="noopener"
+            class="project-link">
+
+            <i class="fas fa-image"></i>
+            View Design
+
+          </a>
+
+        </div>
+
+      </div>
+
+
+
+
+<!-- =====================================
+          SECOND AI VIDEO PROJECT
+           ===================================== -->
+      <div class="project-card glass reveal tilt-card"
+           data-category="videos">
+
+        <!-- Project Image -->
+        <div class="project-img">
+
+          <div class="project-img-placeholder">
+
+            <img
+              src="assets/project/ai-video-2.png"
+              alt="AI video creation project">
+
+          </div>
+
+        </div>
+			<!-- Project Information -->
+        <div class="project-info">
+
+          <span class="project-category">
+            AI Video
+          </span>
+
+          <h3>AI Social Media Video</h3>
+
+          <p>
+           Created AI-powered educational visual content focused on anatomy and human biology, 
+		   using AI-generated imagery, visual storytelling, animation, and video editing to present complex concepts in an engaging and accessible format.
+
+          </p>
+
+
+          <!-- Technologies / Tools -->
+          <div class="project-tags">
+
+            <span>GROK</span>
+			<span>FLOW AI</span>
+            <span>ElevenLabs</span>
+            <span>CapCut</span>
+
+          </div>
+
+
+          <!-- Project Link -->
+          <a
+            href="https://www.youtube.com/@Trueanatomyart/shorts"
+            target="_blank"
+            rel="noopener"
+            class="project-link">
+
+            <i class="fas fa-play"></i>
+            View Video
+
+          </a>
+
+        </div>
+
+      </div>
+
+
+
+      <!-- =====================================
+           SECOND AI AUTOMATION PROJECT
+           ===================================== -->
+      <div class="project-card glass reveal tilt-card"
+           data-category="automation">
+
+        <div class="project-img">
+
+          <div class="project-img-placeholder">
+
+            <img
+              src="assets/project/automation-2.png"
+              alt="AI content automation workflow">
+
+          </div>
+
+        </div>
+
+
+        <div class="project-info">
+
+          <span class="project-category">
+            AI Automation
+          </span>
+
+          <h3>AI Customer Service & Appointment Booking Chatbot </h3>
+
+          <p>
+  An AI-powered chatbot that responds to customer enquiries,
+  collects booking details, schedules appointments, updates
+  Google Sheets, and automatically creates events in Google
+  Calendar.
+</p>
+
+
+          <div class="project-tags">
+			  <span>AI Chatbot</span>
+			  <span>n8n</span>
+			  <span>Google Sheets</span>
+			  <span>Google Calendar</span>
+			  <span>Automation</span>
+			</div>
+
+
+          <a
+            href="#"
+            target="_blank"
+            rel="noopener"
+            class="project-link">
+
+            <i class="fas fa-arrow-up-right-from-square"></i>
+            View Project
+
+          </a>
+
+        </div>
+
+      </div>
+	  
+	  
+	  
+	  <!-- =====================================
+          THIRD AI FLYER / IMAGE PROJECT
+           ===================================== -->
+      <div class="project-card glass reveal tilt-card"
+           data-category="flyers">
+
+        <!-- Project Image -->
+        <div class="project-img">
+
+          <div class="project-img-placeholder">
+
+            <img
+              src="assets/project/ai-editing.jpeg"
+              alt="AI flyer and image design">
+
+          </div>
+
+        </div>
+
+
+        <!-- Project Information -->
+        <div class="project-info">
+
+          <span class="project-category">
+            AI Creative
+          </span>
+
+          <h3>AI Photo Editing & Creative Enhancement<h3>
+		  
+		  <p>
+            Transform and enhance existing photographs using AI-assisted editing techniques, including background changes, 
+			creative compositions, image enhancement, styling, retouching, 
+			and professional visual transformations while maintaining a natural and realistic appearance.
+
+
+          </p>
+
+
+          <!-- Technologies / Tools -->
+          <div class="project-tags">
+
+            
+			<span>AI Photo Editing</span>
+				<span>Image Enhancement</span>
+				<span>Photo Manipulation</span>
+				<span>AI Retouching</span>
+				<span>Creative Editing</span>
+
+          </div>
+
+
+          <!-- Project Link -->
+          <a
+            href="https://www.tiktok.com/@rita.creationai"
+            target="_blank"
+            rel="noopener"
+            class="project-link">
+
+            <i class="fas fa-image"></i>
+            View Design
+
+          </a>
+		  
+		  </div>
+
+      </div>
+	  
+	  
+
+
+
+    </div>
+  </div>
+
+</section>
+
+    <!-- SERVICE SECTION -->
+
+  <!-- =========================================
+     SERVICES SECTION
+     ========================================= -->
+<section id="services" class="section">
+
+  <div class="container">
+
+    <!-- Section Header -->
+    <div class="section-header reveal">
+
+      <h2 class="section-title">
+        My <span class="gradient-text">Services</span>
+      </h2>
+
+      <div class="section-line"></div>
+
+    </div>
+
+
+    <!-- =========================================
+         SERVICES GRID
+         ========================================= -->
+    <div class="services-grid">
+
+
+      <!-- =====================================
+           SERVICE 1 - WEBSITE DESIGN
+           ===================================== -->
+      <div class="service-card glass reveal tilt-card">
+
+        <div class="service-icon-wrapper">
+          <i class="fas fa-laptop-code service-icon"></i>
+        </div>
+
+        <span class="service-number">01</span>
+
+        <h3>Website Design</h3>
+
+        <p>
+          Modern, responsive websites designed with WordPress
+          and Elementor to help businesses build a professional
+          online presence and turn visitors into customers.
+        </p>
+
+        <div class="service-tools">
+          <span>WordPress</span>
+          <span>Elementor</span>
+          <span>Responsive Design</span>
+        </div>
+
+      </div>
+
+
+
+      <!-- =====================================
+           SERVICE 2 - AI AUTOMATION
+           ===================================== -->
+      <div class="service-card glass reveal tilt-card">
+
+        <div class="service-icon-wrapper">
+          <i class="fas fa-robot service-icon"></i>
+        </div>
+
+        <span class="service-number">02</span>
+
+        <h3>AI Automation</h3>
+
+        <p>
+          Smart AI-powered workflows that automate repetitive
+          business tasks, handle customer enquiries, manage
+          leads, generate content, and connect your favorite
+          business tools.
+        </p>
+
+        <div class="service-tools">
+          <span>n8n</span>
+          <span>AI</span>
+          <span>Workflow Automation</span>
+        </div>
+
+      </div>
+
+
+
+      <!-- =====================================
+           SERVICE 3 - AI VIDEO CREATION
+           ===================================== -->
+      <div class="service-card glass reveal tilt-card">
+
+        <div class="service-icon-wrapper">
+          <i class="fas fa-video service-icon"></i>
+        </div>
+
+        <span class="service-number">03</span>
+
+        <h3>AI Video Creation</h3>
+
+        <p>
+          Engaging AI-powered videos for social media, marketing,
+          education, and brand storytelling using AI-generated
+          visuals, voiceovers, animation, and professional editing.
+        </p>
+
+        <div class="service-tools">
+          <span>AI Video</span>
+          <span>ElevenLabs</span>
+          <span>CapCut</span>
+        </div>
+
+      </div>
+
+
+
+      <!-- =====================================
+           SERVICE 4 - AI FLYERS & IMAGES
+           ===================================== -->
+      <div class="service-card glass reveal tilt-card">
+
+        <div class="service-icon-wrapper">
+          <i class="fas fa-wand-magic-sparkles service-icon"></i>
+        </div>
+
+        <span class="service-number">04</span>
+
+        <h3>AI Flyers & Images</h3>
+
+        <p>
+          Eye-catching AI-generated visuals, product flyers,
+          promotional graphics, realistic AI photography, and
+          creative image editing for brands and social media.
+        </p>
+
+        <div class="service-tools">
+          <span>AI Images</span>
+          <span>Canva</span>
+          <span>Creative Design</span>
+        </div>
+
+      </div>
+
+
+    </div>
+
+  </div>
+
+</section>
+  <section id="contact" class="section">
+    <div class="container">
+      <div class="section-header reveal">
+        <h2 class="section-title">Get In <span class="gradient-text">Touch</span></h2>
+        <div class="section-line"></div>
+      </div>
+      <div class="contact-content reveal">
+        <div class="contact-card glass">
+          <div class="contact-icon"><i class="fab fa-whatsapp"></i></div>
+          <h3>WhatsApp</h3>
+          <p>Quick replies on WhatsApp</p>
+          <a href="https://wa.me/2348173252068?text=Hello%20Rita%2C%20I%20would%20like%20to%20discuss%20a%20project%20with%20you."
+            target="_blank" rel="noopener" class="contact-btn">Message Me <i class="fas fa-arrow-right"></i></a>
+        </div>
+        <div class="contact-card glass">
+          <div class="contact-icon"><i class="far fa-envelope"></i></div>
+          <h3>Gmail</h3>
+          <p>Send me an email anytime</p>
+          <a href="mailto:ugoritaumevuche@gmail.com" class="contact-btn">Send Email <i
+              class="fas fa-arrow-right"></i></a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer id="footer">
+    <div class="footer-gradient"></div>
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-logo">&lt;RU/&gt;</div>
+       <p class="footer-quote">"Designing digital experiences. Automating possibilities. Creating with AI."</p>
+        <div class="footer-social">
+          <a href="https://web.facebook.com/ugoritaumevuche" target="_blank" rel="noopener"
+            aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+          <a href="https://www.linkedin.com/in/ritaumevuche/" target="_blank" rel="noopener"
+            aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+          <a href="https://github.com/RITAUMEVUCHE" target="_blank" rel="noopener" aria-label="GitHub"><i
+              class="fab fa-github"></i></a>
+        </div>
+        <p class="footer-copy">&copy; 2026 RITA UGOCHI UMEVUCHE. All rights reserved.</p>
+      </div>
+      <button id="scroll-top" class="scroll-top-btn" aria-label="Scroll to top"><i class="fas fa-arrow-up"></i></button>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
